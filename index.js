@@ -20,7 +20,7 @@ app.use(cookieParser());
 app.use(
   cors({
     credentials: true,
-    origin: FRONTEND_URL,
+    origin: ["http://localhost:5173", "https://chat-app-suriya-k7.netlify.app"],
   })
 );
 
